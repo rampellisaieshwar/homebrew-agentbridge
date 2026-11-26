@@ -3,13 +3,13 @@ class Agentbridge < Formula
 
   desc "Reach Claude Code, Codex and agy sessions on your Mac from Telegram"
   homepage "https://github.com/rampellisaieshwar/agentbridge"
-  url "file:///Users/saieshwarrampelli/Downloads/Cap/agentbridge-0.1.0.tar.gz"
-  sha256 "4758f951734dc46d1e6a1fe3fca2b27da6f7e609545f88ebf8f4f4ff9d07e8b7"
-  version "0.1.0"
+  url "https://github.com/rampellisaieshwar/agentbridge/archive/refs/tags/v0.1.0.tar.gz"
+  sha256 "1b8ed30ca86e2e7015e06ecd843f026fee80fe7ac6ae82a99dc6f45a6713f082"
+  license "MIT"
 
+  depends_on :macos
   depends_on "python@3.14"
   depends_on "tmux"
-  depends_on :macos
 
   resource "anyio" do
     url "https://files.pythonhosted.org/packages/a1/98/7e457a3b014976887a050561955c0b76e1e7e2d6e27b78ecef2ef80518f2/anyio-4.16.0.tar.gz"

@@ -1,13 +1,12 @@
-# AgentBridge Homebrew tap
+# homebrew-agentbridge
 
-This private tap provides the AgentBridge Python CLI for macOS.
-You need access to the private tap repository and its local source tarball.
-
-Tap the repository using its Git URL:
+Homebrew tap for [AgentBridge](https://github.com/rampellisaieshwar/agentbridge): reach Claude Code,
+Codex and agy sessions on your Mac from Telegram.
 
 ```sh
-brew tap <owner>/agentbridge <private-tap-git-url>
-brew install agentbridge
+brew trust rampellisaieshwar/agentbridge      # Homebrew asks this once for third-party taps
+brew install rampellisaieshwar/agentbridge/agentbridge
+agentbridge setup
 ```
 
-After installation, run `agentbridge setup`.
+Also on PyPI: `pipx install agentbridge-tg`. License: MIT.

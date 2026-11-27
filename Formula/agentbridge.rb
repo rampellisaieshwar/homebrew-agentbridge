@@ -3,8 +3,8 @@ class Agentbridge < Formula
 
   desc "Reach Claude Code, Codex and agy sessions on your Mac from Telegram"
   homepage "https://github.com/rampellisaieshwar/agentbridge"
-  url "https://github.com/rampellisaieshwar/agentbridge/archive/refs/tags/v0.1.1.tar.gz"
-  sha256 "963d1a193853689a8d504299342f95923fd49eabd140e6a2a76fb2f0d05e767d"
+  url "https://github.com/rampellisaieshwar/agentbridge/archive/refs/tags/v0.1.2.tar.gz"
+  sha256 "4f54219852c3bde394e67bda68d9de5d2e4533c2df9958cb16cadf956d041ab5"
   license "MIT"
 
   depends_on :macos
